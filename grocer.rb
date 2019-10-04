@@ -10,7 +10,7 @@ def consolidate_cart(cart)
   end
   
 def apply_coupons(cart, coupons)
-  cart[:item_name_w_coupon] = {} 
+  cart[:ITEM_NAME_W_COUPON] = {} 
 end
 
 def apply_clearance(cart)
